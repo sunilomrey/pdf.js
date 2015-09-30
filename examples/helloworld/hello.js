@@ -13,7 +13,7 @@
 PDFJS.getDocument('helloworld.pdf').then(function(pdf) {
   // Using promise to fetch the page
   pdf.getPage(1).then(function(page) {
-    var scale = 1.5;
+    var scale = 1.5; 
     var viewport = page.getViewport(scale);
 
     //
